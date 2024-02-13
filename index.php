@@ -1,6 +1,8 @@
 <?php require_once('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
+<title>PIT-TABANGO</title>
+    <link rel="shortcut icon" href="assets/img/school_logos/pitlogo.png">
 <?php require_once('inc/header.php') ?>
 <?php if($_settings->chk_flashdata('success')): ?>
 <script>
@@ -24,12 +26,7 @@
     }
 ?>
 <?php require_once('inc/footer.php') ?>
-<style>
-  body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background-color:  #050510;
-}
+
 
 </style>
   <div class="modal fade" id="uni_modal" role='dialog'>
